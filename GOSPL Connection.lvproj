@@ -16,8 +16,11 @@
 		<Item Name="Connection_GOSPL.lvlib" Type="Library" URL="../source/Connection/Connection_GOSPL.lvlib"/>
 		<Item Name="Connection.TCP_GOSPL.lvlib" Type="Library" URL="../source/Connection.TCP/Connection.TCP_GOSPL.lvlib"/>
 		<Item Name="Connection.Queue_GOSPL.lvlib" Type="Library" URL="../source/Connection.LocalQueue/Connection.Queue_GOSPL.lvlib"/>
+		<Item Name="Connection.NetworkQueue_GOSPL.lvlib" Type="Library" URL="../source/Connection.NetworkQueue/Connection.NetworkQueue_GOSPL.lvlib"/>
 		<Item Name="Example TCP Client-Server.vi" Type="VI" URL="../source/Example TCP Client-Server.vi"/>
 		<Item Name="Example LocalQueue Client-Server.vi" Type="VI" URL="../source/Example LocalQueue Client-Server.vi"/>
+		<Item Name="Example NetworkQueue Client-Server.vi" Type="VI" URL="../source/Example NetworkQueue Client-Server.vi"/>
+		<Item Name="Example Collection Client-Server.vi" Type="VI" URL="../source/Example Collection Client-Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
@@ -25,6 +28,9 @@
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
 				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

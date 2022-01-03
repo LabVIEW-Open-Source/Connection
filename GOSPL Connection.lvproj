@@ -13,13 +13,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="tests" Type="Folder">
+			<Item Name="Test_NetworkStream Handshake.vi" Type="VI" URL="../source/test/Test_NetworkStream Handshake.vi"/>
+			<Item Name="Test_LocalQueue Handshake.vi" Type="VI" URL="../source/test/Test_LocalQueue Handshake.vi"/>
+			<Item Name="Test_TCP Handshake.vi" Type="VI" URL="../source/test/Test_TCP Handshake.vi"/>
+		</Item>
 		<Item Name="Connection_GOSPL.lvlib" Type="Library" URL="../source/Connection/Connection_GOSPL.lvlib"/>
 		<Item Name="Connection.TCP_GOSPL.lvlib" Type="Library" URL="../source/Connection.TCP/Connection.TCP_GOSPL.lvlib"/>
 		<Item Name="Connection.Queue_GOSPL.lvlib" Type="Library" URL="../source/Connection.LocalQueue/Connection.Queue_GOSPL.lvlib"/>
 		<Item Name="Connection.NetworkQueue_GOSPL.lvlib" Type="Library" URL="../source/Connection.NetworkQueue/Connection.NetworkQueue_GOSPL.lvlib"/>
 		<Item Name="Example TCP Client-Server.vi" Type="VI" URL="../source/Example TCP Client-Server.vi"/>
 		<Item Name="Example LocalQueue Client-Server.vi" Type="VI" URL="../source/Example LocalQueue Client-Server.vi"/>
-		<Item Name="Example NetworkQueue Client-Server.vi" Type="VI" URL="../source/Example NetworkQueue Client-Server.vi"/>
+		<Item Name="Example NetworkStream Client-Server.vi" Type="VI" URL="../source/Example NetworkStream Client-Server.vi"/>
 		<Item Name="Example Collection Client-Server.vi" Type="VI" URL="../source/Example Collection Client-Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -31,6 +36,9 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="openURI.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenURI/openURI.lvlib"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

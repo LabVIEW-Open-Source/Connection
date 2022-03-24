@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2021-04-05 17:47:55" Creator="normandinf" Comments="" ID="a60f392167097de8f6892a5c444e643f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-03-23 07:15:11" Creator="normandinf" Comments="" ID="3c06a3691fbc6016b18d133ff25782f2">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_Connection</Package_File_Name>
     <Library_Version>1.0.0.6</Library_Version>
@@ -177,6 +177,7 @@ This package consists the fundamental building blocks for abstract connection ex
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -402,7 +403,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7BE16836CFC1C6D5183AA113C11B41E0</GUID>
+      <GUID>41EBDEEC0B129EC38F4148DC0C16C276</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -465,7 +466,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.TCP\Create TCP Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EF8208CDC9AA3BB5B3F6C89298F8EC1</GUID>
+      <GUID>3E5A79FE5001255521A91C6FA26FCEE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -528,7 +529,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.LocalQueue\Create Queue Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61FC7464FF7DD2E08A328FD2363628E2</GUID>
+      <GUID>DCC2A9447BB6C4E00A45CABEB1E843A9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -577,7 +578,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Example LocalQueue Client-Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0220A5CDD8A622325D2AA4C8EC62CB27</GUID>
+      <GUID>03308AE5453F9442E3738D16F9118A5A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-03-23 07:15:11" Creator="normandinf" Comments="" ID="3c06a3691fbc6016b18d133ff25782f2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-04-30 15:09:59" Creator="normandinf" Comments="" ID="fa38dd347d58babc3f062bbcc82fa574">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_Connection</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -41,8 +41,8 @@ This package consists the fundamental building blocks for abstract connection ex
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/Connection</URL>
-      <Release_Notes>- Initial release of independently packaged Connection library for "G Open Source Project for LabVIEW"
-- Packaged with Local Queue connection and TCP connection</Release_Notes>
+      <Release_Notes>- Change banner and wire colors to differentiate from the MQTT connections
+- Listener now propagates configuration type to output through runtime node</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -403,7 +403,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41EBDEEC0B129EC38F4148DC0C16C276</GUID>
+      <GUID>B1B216F133E2C04C3C422335DCBB8F7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -466,7 +466,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.TCP\Create TCP Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E5A79FE5001255521A91C6FA26FCEE4</GUID>
+      <GUID>409F7A4482B298F6805B8B9287756B3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -529,7 +529,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.LocalQueue\Create Queue Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCC2A9447BB6C4E00A45CABEB1E843A9</GUID>
+      <GUID>248B2F3A14F5903EA83084516FFA68BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -578,7 +578,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Example LocalQueue Client-Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03308AE5453F9442E3738D16F9118A5A</GUID>
+      <GUID>75C1C9C9D6458FA31DA601E5D3DED305</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

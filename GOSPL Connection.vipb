@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-06-20 12:59:20" Creator="normandinf" Comments="" ID="ad376a836d9f128744139192e74ee642">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-06-20 16:18:26" Creator="normandinf" Comments="" ID="81372ae3d7c91b1ae3a88acbf3e0680f">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_Connection</Package_File_Name>
-    <Library_Version>1.1.0.8</Library_Version>
+    <Library_Version>1.1.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -423,7 +423,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.Websockets</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5E329F1387EA46599A5AACB25D7DD174</GUID>
+      <GUID>A051DC2E7D3D1278EF527CF0C03D7A73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -486,7 +486,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.TCP\Create TCP Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>228B761AF6E1085BCB0B2F5A389E1E7A</GUID>
+      <GUID>6CA663047CABD6989764A2418876DAAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -549,7 +549,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.LocalQueue\Create Queue Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0EB8C75247B27671B46196223FF7D338</GUID>
+      <GUID>B842D2A6AC4E9F5382DBA29C84590812</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -626,7 +626,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Example Websockets ServerOnly.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D391920726D54A8A90EFCB8BDF2D2ADC</GUID>
+      <GUID>B7DA953D7BCB30A7C2C937CF945FE8B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -745,7 +745,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Accessors</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB0F242DA55A03B899AEF522D367C28D</GUID>
+      <GUID>F92B40FDD5C15A359FA789648ABC5FA5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -822,7 +822,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.Websockets\HTTP.Set Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02AFEDFF6B8B258D4EC21FD3481CD0FD</GUID>
+      <GUID>1BEF2802D2E147CD6FB44444BA501F9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

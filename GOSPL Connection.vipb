@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-06-20 16:20:22" Creator="normandinf" Comments="" ID="dd013e598f7d7bd81ec50e489a518823">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-07-03 15:11:44" Creator="normandinf" Comments="" ID="0c9fe97c751f541096aed029c103bcc0">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_Connection</Package_File_Name>
-    <Library_Version>1.1.0.10</Library_Version>
+    <Library_Version>1.1.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -21,12 +21,13 @@
       <External_Dependencies>labview_open_source_lib_serializer &gt;= 1.2.1.16</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_unicity &gt;= 1.1.0.6</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_serializer_base64 &gt;= 1.0.2.4</External_Dependencies>
+      <External_Dependencies>lvos_lib_cryptography &gt;= 1.0.0.5</External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_labview_open_source_palette &gt;=1.0.2.7</Additional_External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.5.0.15</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_serializer-1.2.1.16</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_unicity-1.1.0.6</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_project_lib_serializer_base64-1.0.2.4</Direct_Dependencies>
-      <Direct_Dependencies>lvos_lib_sha1-1.0.0.2</Direct_Dependencies>
+      <Direct_Dependencies>lvos_lib_cryptography-1.0.0.5</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -423,7 +424,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.Websockets</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A051DC2E7D3D1278EF527CF0C03D7A73</GUID>
+      <GUID>AF1D35219434330BF26AF836C634785B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -486,7 +487,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.TCP\Create TCP Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CA663047CABD6989764A2418876DAAF</GUID>
+      <GUID>49EF93FCD522A72921925F469BC5EA01</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -549,7 +550,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.LocalQueue\Create Queue Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B842D2A6AC4E9F5382DBA29C84590812</GUID>
+      <GUID>93AEE6D2154A0AF08290AAA3C7D9A896</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -626,7 +627,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Example Websockets ServerOnly.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7DA953D7BCB30A7C2C937CF945FE8B2</GUID>
+      <GUID>1648D3C22A9A83557F761BFC43C40E1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -745,7 +746,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Accessors</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F92B40FDD5C15A359FA789648ABC5FA5</GUID>
+      <GUID>0D1EAC229416623E1DCA8DEB6A06DB73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -822,7 +823,7 @@ This package consists the fundamental building blocks for abstract connection ex
         <Path>source\Connection.Websockets\HTTP.Set Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1BEF2802D2E147CD6FB44444BA501F9C</GUID>
+      <GUID>58336E97B5226E9BB7800A948F4EE58A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

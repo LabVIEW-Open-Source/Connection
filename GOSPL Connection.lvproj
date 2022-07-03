@@ -54,10 +54,7 @@
 				<Item Name="TD_Compare Types.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Compare Types.vi"/>
 				<Item Name="OpenScalar.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Scalar/OpenScalar.lvlib"/>
 				<Item Name="KVP Parser.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/KVP Parser.vi"/>
-				<Item Name="SHA-1.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Cryptographic Functions/SHA-1.lvlib"/>
-				<Item Name="NI_SMTPEmail.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SMTP/NI_SMTPEmail.lvlib"/>
-				<Item Name="LV70U32ToDateRec.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70U32ToDateRec.vi"/>
-				<Item Name="GetDateTimeInSecsCompatVI.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/GetDateTimeInSecsCompatVI.vi"/>
+				<Item Name="SHA-1.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Cryptographic Functions/SHA-1/SHA-1.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
